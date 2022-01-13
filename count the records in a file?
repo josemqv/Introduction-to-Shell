@@ -1,0 +1,3 @@
+wc (short for "word count") prints the number of characters, words, and lines in a file. You can make it print only one of these using -c, -w, or -l respectively.
+
+grep 2017-07 seasonal/spring.csv | wc -l
