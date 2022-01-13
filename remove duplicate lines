@@ -1,0 +1,17 @@
+Another command that is often used with sort is uniq, whose job is to remove duplicated lines. More specifically, it removes adjacent duplicated lines. If a file contains:
+
+2017-07-03
+2017-07-03
+2017-08-03
+2017-08-03
+then uniq will produce:
+
+2017-07-03
+2017-08-03
+but if it contains:
+
+2017-07-03
+2017-08-03
+2017-07-03
+2017-08-03
+cut -d , -f 2 seasonal/winter.csv | grep -v Tooth | sort | uniq -c
