@@ -1,0 +1,2 @@
+head -n 5 seasonal/winter.csv > top.csv
+tail -n 3 top.csv
