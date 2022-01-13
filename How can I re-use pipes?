@@ -1,0 +1,10 @@
+A file full of shell commands is called a *shell script, or sometimes just a "script" for short.
+Scripts don't have to have names ending in .sh, but this lesson will use that convention to help you keep track of which files are scripts.
+
+Scripts can also contain pipes. For example, if all-dates.sh contains this line:
+
+cut -d , -f 1 seasonal/*.csv | grep -v Date | sort | uniq
+then:
+
+bash all-dates.sh > dates.out
+will extract the unique dates from the seasonal data files and save them in dates.out.
