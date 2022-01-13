@@ -1,0 +1,6 @@
+head -n 5 seasonal/summer.csv
+Instead of sending head's output to a file, add a vertical bar and the tail command without a filename:
+
+head -n 5 seasonal/summer.csv | tail -n 3
+
+cut -d , -f 2 seasonal/summer.csv | grep -v Tooth
