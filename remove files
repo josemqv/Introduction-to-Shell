@@ -1,0 +1,2 @@
+rm thesis.txt backup/thesis-2017-08.txt
+rm seasonal/summer.csv
