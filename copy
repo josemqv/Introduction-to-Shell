@@ -1,0 +1,6 @@
+cp original.txt duplicate.txt
+cp seasonal/autumn.csv seasonal/winter.csv backup
+cp seasonal/autumn.csv seasonal/winter.csv backup
+cp seasonal/summer.csv backup/summer.bck
+
+cp seasonal/spring.csv seasonal/summer.csv backup
