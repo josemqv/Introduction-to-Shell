@@ -1,0 +1,11 @@
+How can I repeat a command many times?
+Shell variables are also used in loops, which repeat commands many times. If we run this command:
+
+for filetype in gif jpg png; do echo $filetype; done
+it produces:
+
+gif
+jpg
+png
+
+for filetype in docx odt pdf; do echo $filetype; done
