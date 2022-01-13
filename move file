@@ -1,0 +1,3 @@
+mv autumn.csv winter.csv ..
+mv seasonal/spring.csv seasonal/summer.csv backup
+  
