@@ -1,0 +1,20 @@
+A simpler way to find a variable's value is to use a command called echo, which prints its arguments. Typing
+
+echo hello DataCamp!
+prints
+
+hello DataCamp!
+If you try to use it to print a variable's value like this:
+
+echo USER
+it will print the variable's name, USER.
+
+To get the variable's value, you must put a dollar sign $ in front of it. Typing
+
+echo $USER
+prints
+
+repl
+
+echo $OSTYPE
+linux-gnu
