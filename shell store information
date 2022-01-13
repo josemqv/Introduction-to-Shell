@@ -1,0 +1,14 @@
+shell store information
+
+The other kind of variable is called a shell variable, which is like a local variable in a programming language.
+
+To create a shell variable, you simply assign a value to a name:
+
+training=seasonal/summer.csv
+without any spaces before or after the = sign. Once you have done this, you can check the variable's value with:
+
+echo $training
+seasonal/summer.csv
+
+testing=seasonal/winter.csv
+head -n 1 $testing
