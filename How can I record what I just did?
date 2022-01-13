@@ -1,0 +1,14 @@
+cp seasonal/s* ~
+grep -h -v Tooth spring.csv summer.csv > temp.csv
+history| tail -n 3> steps.txt
+
+How can I record what I just did?
+When you are doing a complex analysis, you will often want to keep a record of the commands you used. You can do this with the tools you have already seen:
+
+Run history.
+Pipe its output to tail -n 10 (or however many recent steps you want to save).
+Redirect that to a file called something like figure-5.history.
+This is better than writing things down in a lab notebook because it is guaranteed not to miss any steps. 
+It also illustrates the central idea of the shell: simple tools that produce and consume lines 
+of text can be combined in a wide variety of ways to solve a broad range of problems.
+
