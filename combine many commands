@@ -1,0 +1,11 @@
+cut -d , -f 2 seasonal/summer.csv | grep -v Tooth | head -n 1
+
+
+You can chain any number of commands together. For example, this command:
+
+cut -d , -f 1 seasonal/spring.csv | grep -v Date | head -n 10
+will:
+
+select the first column from the spring data;
+remove the header line containing the word "Date"; and
+select the first 10 lines of actual data.
