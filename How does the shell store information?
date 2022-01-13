@@ -1,0 +1,7 @@
+environment variables,
+
+setVariable	Purpose	Value
+HOME	User's home directory	/home/repl
+PWD	Present working directory	Same as pwd command
+SHELL	Which shell program is being used	/bin/bash
+USER	User's ID	repl
